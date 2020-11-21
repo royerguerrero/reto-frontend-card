@@ -78,6 +78,8 @@ body {
 
 .card__user-personal-info > h2  {
     color: hsl(227, 10%, 46%);
+    margin-top: -10px;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -93,8 +95,9 @@ body {
 }
 
 .card__user-stat-item > p {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 14px;
     color: hsl(227, 10%, 46%);
     margin-top: -15px;
+    letter-spacing: 1.2px;
 }
