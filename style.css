@@ -81,6 +81,7 @@ body {
     margin-top: -10px;
     font-weight: 400;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .card__user-stats {
@@ -100,4 +101,5 @@ body {
     color: hsl(227, 10%, 46%);
     margin-top: -15px;
     letter-spacing: 1.2px;
+    padding-bottom: 20px;
 }
