@@ -1,0 +1,100 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background: hsl(185, 75%, 39%);
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+
+.card {
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    background-color: #ffffff;
+    color: hsl(229, 23%, 23%);
+    width: 420px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+
+.pattern--top {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 500;
+    left: 1000;
+    z-index: 0;
+    background: url("images/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    transform: rotate(180deg);
+}
+
+.pattern--bottom {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background: url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+}
+
+
+.card__bg {
+    width: 100%;
+    height: 160px;
+    background: url("images/bg-pattern-card.svg");
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+
+.card__user-img {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 110px;
+    left: 160px;
+}
+
+.card__body {
+    padding-top: 60px;
+}
+
+.card__user-personal-info > h1 > span{
+    color: hsl(227, 10%, 46%);
+    margin-left: 5px;
+}
+
+.card__user-personal-info > h2  {
+    color: hsl(227, 10%, 46%);
+    font-size: 18px;
+}
+
+.card__user-stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: hsla(227, 10%, 46%, 0.212) 2px solid;
+}
+
+.card__user-stat-item > h3 {
+    font-size: 24px;
+}
+
+.card__user-stat-item > p {
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(227, 10%, 46%);
+    margin-top: -15px;
+}
